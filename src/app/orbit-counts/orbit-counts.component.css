@@ -3,6 +3,7 @@
 	color: #fff;
 	border-radius: 5px;
 	width: 225px;
+	display: none;
 }
 
 .counts div {
@@ -11,4 +12,8 @@
 
 .counts span {
 	float: right;
+}
+
+.counts:last-child {
+	display: block;
 }
